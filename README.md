@@ -10,7 +10,7 @@ The Project Beer Collection API is a web-based back-end service designed to faci
 - Option to update the rating of a specific beer.
 
 ## Installation Guide
-1. Clone this repository from [GitHub](https://github.com/mariomos).
+1. Clone this repository from [GitHub](https://github.com/mariomos/web-base-backend-js).
 2. Navigate to the project directory in your terminal.
 3. Execute `npm install` to install all dependencies.
 4. For simplicity, the API_KEY is not stored in a .env file in this demonstration. In a real-world scenario, it is recommended to utilize environment variables for sensitive information.
