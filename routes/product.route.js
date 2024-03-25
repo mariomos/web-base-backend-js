@@ -23,7 +23,7 @@ router.get("/search/:name", getProductByName);
 router.post("/", createProduct);
 
 // PUT update product rating by ID
-router.put("/updateRating/:id", updateProductRating);
+router.patch("/updateRating/:id", updateProductRating);
 
 // PUT update product by ID
 router.put("/:id", updateProduct);
