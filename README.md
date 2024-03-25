@@ -38,7 +38,7 @@ Example:
 | GET         | /api/products/:id          | Get a beer by ID                |
 | GET         | /api/products/search/:name | Search for a beer by name       |
 | PUT         | /api/products/:id          | Update a beer's rating          |
-| PUT         | /api/products/updateRating/:id | Update a beer's rating by ID |
+| PATCH       | /api/products/updateRating/:id | Update a beer's rating by ID |
 | DELETE      | /api/products/:id          | Delete a beer                   |
 
 ## Technologies Used
