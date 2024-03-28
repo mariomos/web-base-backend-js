@@ -83,6 +83,7 @@ const createProduct = async (req, res) => {
       type,
       rating: rating || 0,
       totalRatings: rating ? 1 : 0,
+      historyRatings: rating ? [rating] : [],
     });
 
     await product.save();
@@ -128,6 +129,7 @@ const updateProductRating = async (req, res) => {
       // Update the product with the new rating values
       product.rating = newAverageRating;
       product.totalRatings = newTotalRatings;
+      product.historyRatings.push(rating); // Append new rating to historyRatings
     }
 
     // Save the updated product
