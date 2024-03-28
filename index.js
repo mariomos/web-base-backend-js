@@ -24,8 +24,8 @@ mongoose
   )
   .then(() => {
     console.log("Connected to database!");
-    app.listen(5000, () => {
-      console.log("Server running on port 5000");
+    app.listen(4000, () => {
+      console.log("Server running on port 4000");
     });
   })
   .catch(() => {
