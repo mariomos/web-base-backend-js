@@ -22,6 +22,10 @@ const ProductSchema = mongoose.Schema(
       type: Number,
       default: 0,
     },
+    historyRatings: {
+      type: [Number], // Array of numbers
+      default: [],   // Default empty array
+    },
   },
   {
     timestamps: true,
